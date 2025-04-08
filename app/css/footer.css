@@ -1,0 +1,30 @@
+.FooterWrapper{
+  height: 400px;
+  background-color: grey;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about{
+  background-color: grey;
+  width: 400px;
+
+}
+
+@media (max-width:768px) {
+
+  .FooterWrapper{
+    height: 400px;
+    background-color: grey;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  
+}

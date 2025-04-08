@@ -1,0 +1,6 @@
+.AboutusWrapper{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(4, 4, 4);
+  margin-bottom: 50px;
+}

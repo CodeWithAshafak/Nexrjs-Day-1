@@ -1,0 +1,41 @@
+.navWrapper {
+  display: flex;
+  background-color: skyblue;
+  color: black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 110px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: grey;
+  font-size: 24px;
+}
+
+span {
+  color: brown;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .navWrapper {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+  h1 {
+    font-size: 20px;
+  }
+}
