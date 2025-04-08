@@ -1,0 +1,44 @@
+.Contactus{
+  background-color: grey;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+  flex-direction: column;
+}
+
+#contact{
+  font-size: 30px;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  text-decoration: underline;
+  color: black;
+  margin-bottom: 20px;
+}
+p{
+  width: 400px;
+}
+
+#heading{
+  font-size: 50px;
+  text-align: center;
+  font-family:cursive;
+  text-decoration:wavy;
+  color: black;
+  margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+  
+  .Contactus{
+    background-color: grey;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+  
+    flex-direction: column;
+  }
+
+}

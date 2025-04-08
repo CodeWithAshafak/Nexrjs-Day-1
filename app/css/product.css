@@ -1,3 +1,8 @@
+.ProductWrapper{
+  margin-top: 100px;
+}
+
+
 .productShowcase{
 
   display: flex;
@@ -6,6 +11,7 @@
   background-color: rgb(225, 192, 142);
   padding: 50px;
   margin-top: 30px;
+
 }
 .image{
   height: 300px;
@@ -13,10 +19,14 @@
 }
 
 @media (max-width:768px) {
+
+  .ProductWrapper{
+    margin-top: 600px;
+  }
   .productShowcase{
     display: flex;
     flex-direction: column;
-    margin-top: 400px;
+    margin-top: 100px;
   }
   
 }

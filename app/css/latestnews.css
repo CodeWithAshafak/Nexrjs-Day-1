@@ -1,0 +1,30 @@
+.latestNewsWrapper{
+  height: 200px;
+  background-color: rgb(114, 102, 70);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#heading{
+
+  font-size: 50px;
+  text-align: center;
+  font-family:cursive;
+  text-decoration:wavy;
+  color: black;
+  margin-bottom: 20px;
+}
+
+@media (max-width:768px) {
+
+  .latestNewsWrapper{
+    height: 400px;
+    
+    
+    
+  }
+
+  
+}

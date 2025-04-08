@@ -1,14 +1,15 @@
 .FooterWrapper{
   height: 400px;
-  background-color: grey;
-  color: black;
+  background-color:black;
+  color: rgb(175, 157, 157);
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .about{
-  background-color: grey;
+
   width: 400px;
 
 }
@@ -17,8 +18,8 @@
 
   .FooterWrapper{
     height: 400px;
-    background-color: grey;
-    color: black;
+    background-color:black;
+    color:whitesmoke;
     display: flex;
     justify-content: space-around;
     align-items: center;

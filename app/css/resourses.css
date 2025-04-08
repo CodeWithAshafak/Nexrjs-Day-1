@@ -1,0 +1,17 @@
+.Resourses{
+  height: 400px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading{
+  font-size: 20px;
+  text-align: center;
+  font-family:cursive;
+  text-decoration:wavy;
+  color: black;
+  margin-bottom: 20px;
+}
