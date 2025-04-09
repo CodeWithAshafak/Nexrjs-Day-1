@@ -1,3 +1,4 @@
+import Link from "next/link"
 import "../css/footer.css"
 
 
@@ -13,10 +14,13 @@ const  Footer = ()=>{
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, consequatur eius non ut architecto maxime, quas est incidunt nostrum sequi commodi iure dolores? Quos ipsam quis laudantium veniam architecto quidem?</p>
      </div>
      <div className="service">
-      <p>Return</p>
-      <p>Latest offers </p>
-      <p>Gift Cart</p>
-      <p>Coming soon</p>
+
+      
+      <Link href="/return">Return</Link>
+      <Link href='/latest' >Latest offers </Link>
+      <Link href='/gift' >Gift Cart</Link>
+      <Link href='/coming'>Coming soon</Link>
+    
       <p>Refund</p>
       <p>our policies</p>
      </div>

@@ -1,17 +1,28 @@
-.mainWrapper{
+ .mainWrapper{
   
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color:black;
   padding: 30px;
-  height: 500px;
+  
+  
+  height: auto;
+  
 }
+
+.image #image {
+  border-radius: 10px;
+  
+}
+
 .content{
-  padding: 100px;
+
+  padding: 90px;
   border: 1px solid;
   margin-left: 50px;
   display: flex;
+
   gap: 30px;
   justify-content: space-between;
   flex-direction: column;
@@ -78,4 +89,8 @@
 
 
 
+ 
+
+
+ 
 

@@ -11,14 +11,15 @@ const Latest = ()=>{
 
 
       <div className="image">
-        <Image src="/images/iphone.jpg"  width={400} height={400} alt="iphone"/>
+        <Image   id="image"
+        src="/images/iphone.jpg"  width={400} height={400} alt="iphone"/>
 
       </div>
       <div className="content">
 
-        <h3>
+        <h4>
         iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Desert Titanium
-        </h3>
+        </h4>
 
         <h4>Price :₹1,12,900</h4>
 
@@ -41,3 +42,6 @@ const Latest = ()=>{
 }
 
 export default Latest 
+
+
+

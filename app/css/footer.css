@@ -1,10 +1,12 @@
 .FooterWrapper{
-  height: 400px;
-  background-color:black;
-  color: rgb(175, 157, 157);
+ 
+  color: #ffffff;
+  padding: 40px 20px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+
+  justify-content: space-between;
+  gap: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -12,6 +14,22 @@
 
   width: 400px;
 
+}
+
+.about h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f2aa4c;
+}
+
+.about p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width:768px) {

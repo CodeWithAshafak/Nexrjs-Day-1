@@ -1,44 +1,108 @@
-.Contactus{
-  background-color: grey;
-  height: 300px;
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-
+.Contactus {
+  padding: 40px;
+  background-color:rgb(246, 239, 239);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
   flex-direction: column;
 }
 
-#contact{
-  font-size: 30px;
-  text-align: center;
-  font-family:'Times New Roman', Times, serif;
-  text-decoration: underline;
-  color: black;
-  margin-bottom: 20px;
-}
-p{
-  width: 400px;
+.form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: sans-serif;
 }
 
-#heading{
-  font-size: 50px;
-  text-align: center;
-  font-family:cursive;
-  text-decoration:wavy;
-  color: black;
-  margin-bottom: 20px;
+.form label {
+  display: block;
+  margin: 10px 0 5px;
+  text-align: left;
+  font-weight: 500;
+  color: #333;
 }
 
-@media (max-width:768px) {
-  
-  .Contactus{
-    background-color: grey;
-    height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-  
-    flex-direction: column;
+.form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+
+#contact {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.Contactus p {
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 5px;
+  transition: border-color 0.3s ease;
+}
+
+
+
+@media (max-width: 768px) {
+  .Contactus {
+    padding: 20px;
+    background-color: #e6f7ff;
   }
 
+  #contact {
+    font-size: 2rem;
+  }
+
+  .contact-form input {
+    width: 100%;
+  }
 }
